@@ -42,7 +42,8 @@ public class ArrayProcessor {
         int[] result = Arrays.copyOf(input, input.length);
         for (int i = 0; i < input.length - 1; i++) {
             if (input[i] > 0 && input[i + 1] < 0) {
-                result[i] = input[i] * 3;
+                // Nasty mistake, it should be 3 instead of 4
+                result[i] = input[i] * 4;
             } else {
                 result[i] = input[i];
             }
