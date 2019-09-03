@@ -1,15 +1,15 @@
 package com.epam.java_basic;
 
-import com.epam.java_basic.array_processor.ArrayProcessor;
-
 /**
- * Application entry point
+ * Application entry point, use command line arguments to choose task:
+ * 1 for ArrayProcessor
+ * 2 for StringProcessor
+ * 3 for Calculator
  */
 public class Application {
 
     public static void main(String[] args) {
-        ArrayProcessor processor = new ArrayProcessor();
-        //demonstrate ArrayProcessor methods
+        throw new UnsupportedOperationException("You need to implement this method");
     }
 
 }
